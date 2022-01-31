@@ -1,0 +1,16 @@
+{
+  "name": "01-poor-dx",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "your-package": "1.0.0"
+  },
+  "scripts": {
+    "ts-node": "node --loader ts-node/esm main.ts",
+    "node": "npx tsc && node --enable-source-maps main.js",
+    "esbuild": "npx esbuild main.ts --bundle --minify --sourcemap --outfile=esbuild.js",
+    "esbuild-inline": "npx esbuild main.ts --bundle --minify --sourcemap=inline --outfile=esbuild-inline.js",
+    "webpack-developmet": "npx webpack --mode=development"
+  }
+}
