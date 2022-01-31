@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["node_modules/your-package/index.ts", "main.ts"],
+  "sourcesContent": [null, "import func from \"your-package\";\n\nfunc();\n"],
+  "mappings": "0TAAA,EAAe,IAAW,EAAA,OAAA,OAAA,OAAA,WAAA,CACxB,KAAM,IAAI,OAAM,yBCClB",
+  "names": []
+}
