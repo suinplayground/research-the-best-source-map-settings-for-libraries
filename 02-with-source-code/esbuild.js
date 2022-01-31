@@ -1,0 +1,2 @@
+(()=>{var p=function(u,d,i,o){function a(t){return t instanceof i?t:new i(function(c){c(t)})}return new(i||(i=Promise))(function(t,c){function h(n){try{f(o.next(n))}catch(e){c(e)}}function w(n){try{f(o.throw(n))}catch(e){c(e)}}function f(n){n.done?t(n.value):a(n.value).then(h,w)}f((o=o.apply(u,d||[])).next())})},r=()=>p(void 0,void 0,void 0,function*(){throw new Error("this is dummy error")});r();})();
+//# sourceMappingURL=esbuild.js.map

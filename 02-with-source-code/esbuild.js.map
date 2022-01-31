@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["node_modules/your-package/index.js", "main.ts"],
+  "sourcesContent": ["var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n    return new (P || (P = Promise))(function (resolve, reject) {\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\n    });\n};\nexport default () => __awaiter(void 0, void 0, void 0, function* () {\n    throw new Error(\"this is dummy error\");\n});\n", "import func from \"your-package\";\n\nfunc();\n"],
+  "mappings": "MAAA,GAAI,GAAwC,SAAU,EAAS,EAAY,EAAG,EAAW,CACrF,WAAe,EAAO,CAAE,MAAO,aAAiB,GAAI,EAAQ,GAAI,GAAE,SAAU,EAAS,CAAE,EAAQ,KAC/F,MAAO,IAAK,IAAM,GAAI,UAAU,SAAU,EAAS,EAAQ,CACvD,WAAmB,EAAO,CAAE,GAAI,CAAE,EAAK,EAAU,KAAK,UAAkB,EAAP,CAAY,EAAO,IACpF,WAAkB,EAAO,CAAE,GAAI,CAAE,EAAK,EAAU,MAAS,UAAkB,EAAP,CAAY,EAAO,IACvF,WAAc,EAAQ,CAAE,EAAO,KAAO,EAAQ,EAAO,OAAS,EAAM,EAAO,OAAO,KAAK,EAAW,GAClG,EAAM,GAAY,EAAU,MAAM,EAAS,GAAc,KAAK,WAG/D,EAAQ,IAAM,EAAU,OAAQ,OAAQ,OAAQ,WAAa,CAChE,KAAM,IAAI,OAAM,yBCRpB",
+  "names": []
+}
