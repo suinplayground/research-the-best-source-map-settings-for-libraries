@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "file": "webpack-production.js",
+  "mappings": "6BAA0B,YACxB,MAAM,IAAIA,MAAM,wB,YADQ,K,kPAAA,E",
+  "sources": ["webpack://01-poor-dx/./node_modules/your-package/index.ts"],
+  "sourcesContent": [
+    "export default async () => {\n  throw new Error(\"this is dummy error\");\n};\n"
+  ],
+  "names": ["Error"],
+  "sourceRoot": ""
+}

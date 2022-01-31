@@ -1,0 +1,2 @@
+(()=>{"use strict";var n,t;t=function*(){throw new Error("this is dummy error")},new((n=void 0)||(n=Promise))((function(o,r){function e(n){try{c(t.next(n))}catch(n){r(n)}}function i(n){try{c(t.throw(n))}catch(n){r(n)}}function c(t){var r;t.done?o(t.value):(r=t.value,r instanceof n?r:new n((function(n){n(r)}))).then(e,i)}c((t=t.apply(void 0,[])).next())}))})();
+//# sourceMappingURL=webpack-production.js.map
