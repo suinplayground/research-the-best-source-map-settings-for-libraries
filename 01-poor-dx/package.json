@@ -1,0 +1,9 @@
+{
+  "name": "01-poor-dx",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "your-package": "1.0.0"
+  }
+}
